@@ -2,6 +2,9 @@ body {
     background-color: rgb(255, 187, 0);
     font-family: Arial, sans-serif;
     color: black;
+    flex-direction: column;
+    min-height: 100vh;
+    display: flex;
 }
 
 header, footer {
@@ -34,6 +37,7 @@ hr {
 
 main {
     padding: 20px;
+    flex-grow: 1;
 }
 
 .item {
@@ -57,4 +61,5 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
+    flex-shrink: 0;
 }
